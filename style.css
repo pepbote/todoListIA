@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  #llistaTasques {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+  }
+  
+  .tascaCheckbox {
+    margin-right: 10px;
+  }
+  
+  .eliminarBtn {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .eliminarBtn:hover {
+    background-color: #cc0000;
+  }
+  
